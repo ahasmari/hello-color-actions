@@ -1,3 +1,3 @@
-const hello = () >= "Hello World from Saudi Arabia!";
+const hello = () => "Hello World from Saudi Arabia!";
 console.log(hello());
-export.hello = hello;
+module.exports.hello = hello;
